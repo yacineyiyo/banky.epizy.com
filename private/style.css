@@ -1,0 +1,36 @@
+.cont #cart{
+  width: 60%;
+  border: solid 1px darkred;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #000,-2px 2px 5px #000;
+  height: 200px;
+  margin-top: 50px;
+  text-align: center;
+  list-style: none;
+  margin-left: 5px;
+}
+
+.cont #cart a{
+  text-decoration: none;
+  font: 140% bold;
+  color: darkred;
+}
+
+.cont #cart i{
+  position: relative;
+  top: -45px;
+  font-size: 200%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 500px;
+  border-top: solid 1px darkred;
+  color: darkred;
+  width: 80px;
+  height: 80px;
+  
+}
+
+.form{
+  margin-top: 30px;
+}

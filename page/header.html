@@ -1,0 +1,83 @@
+
+<!-- MENU -->
+ <div id="menu">
+   <nav> 
+   <div id="menu-icon2" onclick="menu_func()">
+         <div class="div1"></div>
+        
+         <div class="div2"></div>
+    </div><br>
+   <ul>
+     <hr>
+    
+  <div id="user-cart">
+    <img src="../IMG/user.jpg" alt="user img" width="30%">
+    <h2>
+   <?php
+   if($_SESSION['name']){
+   echo $_SESSION['name'];
+   }else{
+   echo " انت غير مسجل ";
+   }
+   ?>
+    </h2><br>
+    <a href="../user/logout.php">تسجيل الخروج</a>
+  </div><hr><br>
+  
+     <h3> اختصارات </h3>
+     
+     <li>
+       <a href="http://www.banky.epizy.com" target="_blank">
+        الصفحة الرئيسيه 
+        </a>
+     </li>
+     
+     <li><a href="http://www.banky.epizy.com/app/tek.php" target="_blank">
+        التبرع بالدم 
+        </a>
+     </li>
+     
+     <li>
+       <a href="http://www.banky.epizy.com/app/get.php" target="_blank">
+        الحصول علي دم 
+       </a>
+     </li>
+     
+     <h3> الصفحات </h3>
+     
+     <li><a href="">
+        سياسة الخصوصية 
+        </a>
+     </li>
+     
+     <li><a href="">
+        شروط الخدمة 
+       </a>
+     </li>
+ 
+     <li><a href="http://www.banky.epizy.com/contact.php" target="_blank">
+        تواصل معنا 
+        </a>
+     </li>
+     
+   </ul>
+   
+ </nav></div>
+<!-- MENU END -->
+  <!-- HEAD SITE -->
+    <header>
+    
+      <img src="http://www.banky.epizy.com/IMG/logo.png" alt="Logo">
+  <!-- MENU ICON -->
+    <div id="menu-icon" onclick="menu_func()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  <!-- MENU ICON -->
+        <center>
+      <h1> بنك الدم </h1>
+    </center>
+   </header><br>
+  <!-- HEAD SITE END -->
+ 

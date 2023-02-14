@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  
+}
+
+
+body{
+  background-color: #E8DDDD;
+}
+
+/* HEADER STYLE */
+ header {
+   background-color: white;
+   color: red;
+   width: 100%;
+   
+ }
+ 
+ header img{
+   width: 50px;
+   float: left;
+ }
+ 
+ #menu-icon,#menu-icon2{
+   width: 30px;
+   margin-right: 5px;
+   float: right;
+   margin-top: 8px;
+ }
+ 
+ #menu-icon2{
+   float: left;
+  
+ }
+ 
+ #menu-icon div{
+      margin-top: 7px;
+      background-color: red;
+      width: 100%;
+      height: 3px;
+ }
+ 
+ #menu-icon2 .div2{
+   
+   background-color: red;
+   width: 100%;
+   height: 3px;
+   transform: rotate(45deg)
+ }
+ 
+ #menu-icon2 .div1{
+   margin-top: 10px;
+   background-color: red;
+   width: 100%;
+   height: 3px;
+   transform: rotate(-45deg)
+ }
+
+
+ 
+/*MENU STYLE*/
+
+  #user-cart{
+    width: 80%;
+    background: white;
+    border-radius: 8px;
+    line-height: 200%;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #user-cart a{
+    text-decoration: none;
+    padding: 5px;
+    width: 30%;
+    background: red;
+    color: white;
+    border-radius: 8px;
+  }
+
+nav{
+   overflow: auto;
+   background-color: white;
+   width: 50%;
+   line-height: 300%;
+   position: fixed;
+   height: 100%;
+   animation: nav 1s 1;
+}
+
+nav li{
+  margin-right: 25px;
+}
+
+nav li:hover{
+  color: red;
+}
+
+nav li a{
+  text-decoration: none;
+  color: darkred;
+}
+
+nav h3{
+  background-color: darkred;
+  color: white;
+  
+}
+
+@keyframes nav{
+  from {right: -300px;}
+  to{right: 0px;}
+}
+#menu{
+  display: none;
+}
+/*MENU STYLE END*/
+
+/* HEADSR STYLE END */
+
+/* TOTAL STYLE */
+.total #text {
+  text-align: center;
+  width: 100%;
+  color: red;
+  font-size: 100%;
+}
+
+.total #text p #tst1 {
+  font-size: 150%;
+}
+.total #text p #tst2 {
+  font-size: 200%;
+}
+
+#select{
+  width: 100%;
+  text-align: center;
+}
+
+.total #select li{
+  width: 42%;
+  padding: 5px;
+  list-style: none;
+  background-color: white;
+  border: solid 1px red;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  margin: 3px;
+
+}
+
+#in1{  animation: inter 1s 1 ;}
+
+@keyframes inter {
+  from {
+    opacity: 0;
+    width: 10%;
+    font-size: 1px;
+  }
+  
+  to{
+    opacity: 1;
+    width: 42%;
+   font-size: 100%;
+  }
+}
+
+.total #select li button{
+  
+  min-width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+    box-shadow: 0px -2px 5px gray, 0px -2px 5px gray;
+}
+
+.total #select img{
+  width: 100%;
+  
+}
+
+#search-form{
+  width: 100%;
+  text-align: center;
+}
+
+#search-form input{
+  padding: 6px;
+  border: solid 1px red;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#search-form button{
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  width: 50px;
+  padding: 4px;
+  background-color: red;
+  color: white;
+}
+/* TOTAL STYLE END */
+
+/* FOOTER STYLE */
+footer{
+  background-color: darkred;
+  color: white;
+  line-height: 200%;
+  width: 100%;
+  margin-top: 50px;
+  animation: fot 5s 1 ease-in;
+}
+
+footer p{
+  margin-top: 15px;
+}
+
+
+footer #links1{
+  float: left;
+  margin-left: 10px;
+  list-style: none;
+}
+footer #links2{
+  margin-right: 10px;
+  list-style: none;
+}
+
+footer #links2,#links1 li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* FOOTER STYLE END*/
+
+/*CONTACT FORM STYLE*/
+
+.contact-form{
+  background-color: white;
+  border: solid 1px darkred;
+  border-radius: 5px;
+  width: 80%;
+  line-height: 300%;
+  padding: 5px;
+}
+
+.contact-form #inp_1 input{
+  width: 46%;
+  border: solid 1px darkred;
+  height: 30px;
+  padding: 2px;
+  border-radius: 5px;
+  
+}
+
+.contact-form #inp_2 input{
+  width: 93%;
+  border: solid 1px darkred;
+  height: 30px;
+  padding: 2px;
+  border-radius: 5px;
+  
+}
+
+.contact-form textarea{
+   width: 93%;
+  border: solid 1px darkred;
+  height: 100px;
+  padding: 2px;
+  border-radius: 5px;
+  
+}
+
+.contact-form button{
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  padding: 4px;
+  background-color: darkred;
+  color: white;
+  
+}
+
+.contact-form #but_1{
+  width: 93%;
+  text-align: right;
+}
+
+.contact-form #img-form{
+  width: 50%;
+  display: none;
+}
+
+/*CONTACT FORM END*/
+
+
+
+@media (min-width: 550px){
+ 
+ header{
+   height: 60px;
+ }
+ 
+  footer{
+    
+  }
+  
+  .total #select li img{
+    width: 50%;
+  }
+  
+ #search-form input {
+   width: 45%;
+ }
+ 
+ #search-form button {
+  width: 60px;
+ }
+ 
+nav{
+  width: 35%;
+}
+
+.contact-form{
+  display: inline-flex;
+}
+
+.contact-form #img-form{
+  width: 50%;
+  display: block;
+}
+
+.contact-form h3{
+  display: none;
+}
+ 
+  
+  
+}
